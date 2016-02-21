@@ -1,0 +1,5 @@
+URL:
+http://stackoverflow.com/questions/24449344/using-android-support-v7-widget-cardview-in-my-project-eclipse
+
+aar文件可以导入到Eclipse中，主要是Res文件及对应jar包的处理。可以直接解压重建文件。
+在Studio中引用相关的工程，编译后会在openaar文件下生成相应的文件，主要是res、jar包。将其转移到Eclipse新建工程即可。

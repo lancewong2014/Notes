@@ -1,0 +1,20 @@
+lombok:
+provided "org.projectlombok:lombok:1.12.6"
+可以不用写getter and setter
+
+
+
+butterknife:
+ compile 'com.jakewharton:butterknife:7.0.1'
+不要写findviewbyid
+
+Retrolambda:
+1.8
+apply plugin: 'me.tatarka.retrolambda'
+compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+Gsonformat:
+根据json自动生成bean

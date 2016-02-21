@@ -1,0 +1,2 @@
+用apktool反编译apk，比直接rar解压更准确，不会造成xml文件乱码
+java -jar apktool_2.0.2.jar d -f F:\weixin.apk

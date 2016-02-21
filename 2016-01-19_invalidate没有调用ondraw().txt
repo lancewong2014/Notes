@@ -1,0 +1,5 @@
+有时候调用invalidate()方法不会调用view的ondraw()；
+如需要强制调用可以这么调用：
+invalidate();
+forceLayout();
+requestLayout();

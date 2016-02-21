@@ -1,0 +1,5 @@
+Eclipse 编辑xml文件出现如下警告时：
+Unexpected text found in layout file
+可能是一些空白字符引起
+可以通过如下设置显示出来：
+Window->Preferences->General->Editors->Text Editors->Show whitespace characters 

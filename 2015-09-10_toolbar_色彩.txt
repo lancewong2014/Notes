@@ -1,0 +1,9 @@
+URL:
+http://blog.sina.com.cn/s/blog_6e334dc70102ve7d.html
+
+看图toolbar_bg_color.jpg
+toolbar有几种颜色可以直接在styles.xml中设置
+colorAccent
+colorPrimaryDark 类似statusBarColor
+colorPrimary	toolbar的background
+textColorPrimary  文字前景色

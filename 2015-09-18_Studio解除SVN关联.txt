@@ -1,0 +1,3 @@
+android studio解除SVN关联
+将.idea文件夹下的vcs.xml文件打开，将里面的<mapping directory="" vcs="svn"/>变更为<mapping directory="" vcs=""/>
+2、还需要将工作目录下的.svn删掉

@@ -1,0 +1,17 @@
+URL:http://blog.csdn.net/knxw0001/article/details/39637273
+http://blog.csdn.net/knxw0001/article/details/39672917
+
+http://blog.csdn.net/lmj623565791/article/details/46596109
+
+按照MVP模式来说，一般可以将整体分成四个部分：
+1、bean类；
+2、beanModel业务接口及相应实现；
+3、beanView UI界面与业务互动接口，即列出需要操作当前view的方法，供相应的view去实现；
+4、beanPresenter 主导器，通过iView和iModel接口操作model和view，Activity可以把所有逻辑给presenter处理，这样可以把java逻辑从手机的Activity中分离出来
+
+以登录模块为例：
+1、User（Bean类）；
+2、IUserModel（Model接口）、UserModel（Model接口实现）；
+3、IUserView（UI界面互动接口，一般由对应的Activity来实现）；
+4、UserPresenter （内部有IUserModel,IUserView）
+

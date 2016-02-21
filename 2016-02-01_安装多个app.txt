@@ -1,0 +1,41 @@
+Á´½Ó£ºhttp://stackoverflow.com/questions/16777534/using-build-types-in-gradle-to-run-same-app-that-uses-contentprovider-on-one-dev
+
+1=====================================
+In build.gradle of your app set suffix for Debug build:
+
+buildTypes {
+    debug {
+        applicationIdSuffix ".debug"
+    }
+}
+
+
+
+2=====================
+In AndroidManifest.xml file set android:authorities property of your ContentProvider:
+
+<provider
+    android:name="com.example.app.YourProvider"
+    android:authorities="${applicationId}.provider"
+    android:enabled="true"
+    android:exported="false" >
+</provider>
+
+
+3=========================
+In build.gradle file add the following:
+
+defaultConfig {
+    resValue "string", "your_authorities", applicationId + '.provider'
+    resValue "string", "account_type", "your.syncadapter.type"
+    buildConfigField "String", "ACCOUNT_TYPE", '"your.syncadapter.type"'
+}
+
+buildTypes {
+    debug {
+        applicationIdSuffix ".debug"
+        resValue "string", "your_authorities", defaultConfig.applicationId + '.debug.provider'
+        resValue "string", "account_type", "your.syncadapter.type.debug"
+        buildConfigField "String", "ACCOUNT_TYPE", '"your.syncadapter.type.debug"'
+    }
+}

@@ -1,0 +1,2 @@
+netstat -an0 | findstr 5037
+taskkill /F /PID %pid

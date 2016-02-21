@@ -1,0 +1,26 @@
+You have to use proguard-android-optimize.txt, if you want the assumenosideeffects settings to work:
+Change your proguard.config line to:
+
+proguard.config=${sdk.dir}/tools/proguard/proguard-android-optimize.txt:proguard-project.txt
+
+-assumenosideeffects class android.util.Log 
+{
+ public static int d(...);
+ public static int v(...);
+ public static int i(...);
+ public static int e(...);
+}
+
+
+
+In Gradle, use this:
+
+proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+Then add below to your proguard-rules.pro
+
+-assumenosideeffects class android.util.Log { public * ; }
+
+
+html:
+http://stackoverflow.com/questions/21827404/proguard-does-not-remove-my-logs
+http://stackoverflow.com/questions/14123866/how-to-config-my-proguard-project-txt-file-to-remove-just-logs

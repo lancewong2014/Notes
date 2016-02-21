@@ -1,0 +1,20 @@
+private void cropImageUri(Uri uri, int requestCode){
+Intent intent = new Intent("com.android.camera.action.CROP");
+intent.setDataAndType(uri, "image/*");
+intent.putExtra("crop", "true");
+intent.putExtra("aspectX", aspectX);
+intent.putExtra("aspectY", aspectY);
+intent.putExtra("outputX", outputX);
+intent.putExtra("outputY", outputY);
+intent.putExtra("scale", true);
+intent.putExtra(MediaStore.EXTRA_OUTPUT, uri);
+intent.putExtra("return-data", false);
+intent.putExtra("outputFormat", Bitmap.CompressFormat.JPEG.toString());
+intent.putExtra("noFaceDetection", true); // no face detection
+startActivityForResult(intent, requestCode);
+}
+这个函数存在问题，裁减时打开图片的uri与保存图片的uri相同，产生冲突，导致裁减完成后图片的大小变成0Byte。
+可将相机照片保存在另外的位置，将intent.setDataAndType(uri, "image/*");中的uri换成相机照片倮存的路径即可。
+
+
+http://bbs.csdn.net/topics/390935877?page=1

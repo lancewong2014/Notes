@@ -1,0 +1,5 @@
+现在用Toolbar代替Actionbar：
+同样的一些属性一般情况下都可以用于Toolbar;
+但为了兼容低版本，需要用v7包下的Toolbar.
+android:actionviewclass/app:actionviewclass;(显示动作)
+android:actionlayout/app:actionlayout;(自定义customview)

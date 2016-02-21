@@ -1,0 +1,1 @@
+Dialog宽高度需要在设置contentview后再设置，不然会重载为wrap_content

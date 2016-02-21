@@ -1,0 +1,4 @@
+URL:
+http://blog.csdn.net/u010351494/article/details/47022601
+解决办法：进入sdk\extras\android\m2repository\com\android\support\recyclerview-v7\21.0.0目录，找到recyclerview-v7-21.0.0.aar这个文件。用解压软件解压此文件里面有classes.jar，把这个jar包放到项目中的libs文件下即可。
+不需要再导入Lib

@@ -1,0 +1,4 @@
+在不知道key的情况下获取bundle的键值
+for(String key : bundle.keySet()){
+    Object obj = bundle.get(key);   //later parse it as per your required type
+}
