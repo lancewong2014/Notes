@@ -1,1 +1,8 @@
 inputEdit.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+
+2015-03-30增加
+EditText限制特殊输入时可以在xml里添加
+android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+（限制为数字与字母）
+但是值得注意的是，如果动态调用了setInputType方法会导致xml里的digits失效，所以需要动态设置
+inputEdit.setKeyListener(DigitsKeyListener.getInstance("0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"));
