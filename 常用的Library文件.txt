@@ -1,0 +1,10 @@
+1.Retrofit
+	配合okHttp、rxjava使用效率非常高
+2.DBFlow
+	非常简单的 Android 数据库 ORM 库，为你编写数据库代码
+3.Glide
+	加载飞快的图形库
+4.Butterknife
+	注入框架
+5.Dagger 2
+	Dagger 2 是著名的依赖注入库 Dagger 的继承者，我们强烈推荐它。
