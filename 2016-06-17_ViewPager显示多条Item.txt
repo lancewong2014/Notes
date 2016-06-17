@@ -1,0 +1,4 @@
+http://blog.csdn.net/mwj_88/article/details/48712967
+ViewPager一个页面显示多个item
+通过设置ViewPager的margin属性，再加上在viewPager父控件设置cliptochild=false
+再通过setPageMargin属性来控件item与item之间距离

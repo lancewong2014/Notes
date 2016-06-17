@@ -1,0 +1,7 @@
+http://www.tuicool.com/articles/EZnAjiM
+View添加多个tag
+view.setTag(int key,Object value);
+其中的key值只能是res中的id值，故需要在attr.xml里设置自己的id.
+在res/value/attr.xml中创建两个item,如果没attr.xml则创建这个文件
+<item type="id" name="tag_first"/>
+<item type="id" name="tag_second"/>

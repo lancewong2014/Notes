@@ -1,0 +1,10 @@
+http://blog.csdn.net/u010940300/article/details/49303693
+
+在使用CardView的时候发现，当CardView包含一个布局之后设置 圆角，cardview显示出来之后 四周 会有一个类似padding的属性。
+但是在布局文件里面，内层控件和CardView是没有设置padding 的。 
+要去掉 这个自动添加的 padding 可以通过 属性 
+cardview:cardPreventCornerOverlap 来设置为 false。 
+在代码里面 也就是 setPreventCornerOverlap (false)
+
+在api 22及以上
+cardview需要添加app:cardUseCompatPadding为true才可以正常显示圆角

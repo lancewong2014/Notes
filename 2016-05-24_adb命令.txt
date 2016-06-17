@@ -1,0 +1,3 @@
+adb shell pm list packages
+显示出所有的已安装应用包名
+adb uninstall com.skype.raider

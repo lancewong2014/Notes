@@ -1,0 +1,2 @@
+EditText设置imeOptions不生效：
+需要设置singleLine=true.
