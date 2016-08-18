@@ -1,0 +1,3 @@
+retrace.bat -verbose mapping.txt obfuscated_trace.txt
+
+http://blog.csdn.net/brokge/article/details/8989312
