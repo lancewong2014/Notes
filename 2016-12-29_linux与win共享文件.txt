@@ -1,0 +1,1 @@
+mount -t cifs -o username="¹²ÏíÓÃ»§",password="ÃÜÂë" //ip/sharing_folder /mountpoint

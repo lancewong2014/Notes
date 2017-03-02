@@ -1,0 +1,1 @@
+gradlew -q app:dependencies	//查看各依赖关系

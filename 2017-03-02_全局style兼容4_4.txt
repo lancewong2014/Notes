@@ -1,0 +1,12 @@
+http://stackoverflow.com/questions/29882292/buttonstyle-not-working-for-22-1-1
+直接在全局style里设置一些属性，如textCursorDrawable时，在低版本上会有兼容问题。
+处理这个兼容问题，需要去掉前面的"android:"，如"android:editTextStyle"变成"editTextStyle".
+<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textCursorDrawable">@drawable/shape_text_cursor_green</item>
+        <item name="editTextStyle">@style/style_base_edit</item>
+        <!-- Customize your theme here. -->
+</style>
+<style name="style_base_edit" parent="@android:style/Widget.EditText">
+        <item name="android:textCursorDrawable">@drawable/shape_text_cursor_green</item>
+</style>
+
