@@ -1,5 +1,5 @@
 
-�ڿ���Ӧ�õĹ�����ʹ�� Strict ģʽ��ȷ������û�������߳���ĳЩ�����������飨���ʱ����������ʵȡ���������Ҫע����ǣ�Ӧ�õķ� Debug �汾���� Release �汾���õĴ������� Strict ģʽ�ص���Ҫ��Ȼ��Ӱ��Ӧ�������������±�����
+在开发应用的过程中使用 Strict 模式以确保我们没有在主线程做某些不该做的事情（如耗时任务，网络访问等⋯⋯），但要注意的是，应用的非 Debug 版本，即 Release 版本所用的代码必须把 Strict 模式关掉，要不然会影响应用性能甚至导致崩溃。
 url:http://www.devtf.cn/?p=1189
 
 if (BuildConfig.DEBUG) {

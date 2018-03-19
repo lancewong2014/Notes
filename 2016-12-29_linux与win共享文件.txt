@@ -1,1 +1,1 @@
-mount -t cifs -o username="共享用户",password="密码" //ip/sharing_folder /mountpoint
+mount -t cifs -o username="鍏变韩鐢ㄦ埛",password="瀵嗙爜" //ip/sharing_folder /mountpoint

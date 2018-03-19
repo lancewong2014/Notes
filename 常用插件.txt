@@ -1,12 +1,12 @@
 lombok:
 provided "org.projectlombok:lombok:1.12.6"
-可以不用写getter and setter
+鍙互涓嶇敤鍐檊etter and setter
 
 
 
 butterknife:
  compile 'com.jakewharton:butterknife:7.0.1'
-不要写findviewbyid
+涓嶈鍐檉indviewbyid
 
 Retrolambda:
 1.8
@@ -17,4 +17,4 @@ compileOptions {
     }
 
 Gsonformat:
-根据json自动生成bean
+鏍规嵁json鑷姩鐢熸垚bean

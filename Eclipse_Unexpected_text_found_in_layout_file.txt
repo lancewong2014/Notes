@@ -1,5 +1,5 @@
-Eclipse ±à¼­xmlÎÄ¼þ³öÏÖÈçÏÂ¾¯¸æÊ±£º
+Eclipse ç¼–è¾‘xmlæ–‡ä»¶å‡ºçŽ°å¦‚ä¸‹è­¦å‘Šæ—¶ï¼š
 Unexpected text found in layout file
-¿ÉÄÜÊÇÒ»Ð©¿Õ°××Ö·ûÒýÆð
-¿ÉÒÔÍ¨¹ýÈçÏÂÉèÖÃÏÔÊ¾³öÀ´£º
+å¯èƒ½æ˜¯ä¸€äº›ç©ºç™½å­—ç¬¦å¼•èµ·
+å¯ä»¥é€šè¿‡å¦‚ä¸‹è®¾ç½®æ˜¾ç¤ºå‡ºæ¥ï¼š
 Window->Preferences->General->Editors->Text Editors->Show whitespace characters 

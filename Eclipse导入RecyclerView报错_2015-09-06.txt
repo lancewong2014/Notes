@@ -1,4 +1,4 @@
 URL:
 http://blog.csdn.net/u010351494/article/details/47022601
-½â¾ö°ì·¨£º½øÈësdk\extras\android\m2repository\com\android\support\recyclerview-v7\21.0.0Ä¿Â¼£¬ÕÒµ½recyclerview-v7-21.0.0.aarÕâ¸öÎÄ¼ş¡£ÓÃ½âÑ¹Èí¼ş½âÑ¹´ËÎÄ¼şÀïÃæÓĞclasses.jar£¬°ÑÕâ¸öjar°ü·Åµ½ÏîÄ¿ÖĞµÄlibsÎÄ¼şÏÂ¼´¿É¡£
-²»ĞèÒªÔÙµ¼ÈëLib
+è§£å†³åŠæ³•ï¼šè¿›å…¥sdk\extras\android\m2repository\com\android\support\recyclerview-v7\21.0.0ç›®å½•ï¼Œæ‰¾åˆ°recyclerview-v7-21.0.0.aarè¿™ä¸ªæ–‡ä»¶ã€‚ç”¨è§£å‹è½¯ä»¶è§£å‹æ­¤æ–‡ä»¶é‡Œé¢æœ‰classes.jarï¼ŒæŠŠè¿™ä¸ªjaråŒ…æ”¾åˆ°é¡¹ç›®ä¸­çš„libsæ–‡ä»¶ä¸‹å³å¯ã€‚
+ä¸éœ€è¦å†å¯¼å…¥Lib

@@ -1,4 +1,4 @@
-ÔÚ²»ÖªµÀkeyµÄÇé¿öÏÂ»ñÈ¡bundleµÄ¼üÖµ
+åœ¨ä¸çŸ¥é“keyçš„æƒ…å†µä¸‹è·å–bundleçš„é”®å€¼
 for(String key : bundle.keySet()){
     Object obj = bundle.get(key);   //later parse it as per your required type
 }

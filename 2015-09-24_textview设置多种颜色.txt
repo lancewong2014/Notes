@@ -1,15 +1,15 @@
-ÏÔÊ¾¶àÖÖÑÕÉ«µÄ×Ö
+æ˜¾ç¤ºå¤šç§é¢œè‰²çš„å­—
 
-AndroidÖ§³Öhtml¸ñÊ½µÄ×Ö·û´®£¬Í¨¹ýµ÷ÓÃHtml.fromHtml(str)·½·¨¿ÉÒÔ×ª»»html¸ñÊ½µÄ×Ö·û´®str¡£
+Androidæ”¯æŒhtmlæ ¼å¼çš„å­—ç¬¦ä¸²ï¼Œé€šè¿‡è°ƒç”¨Html.fromHtml(str)æ–¹æ³•å¯ä»¥è½¬æ¢htmlæ ¼å¼çš„å­—ç¬¦ä¸²strã€‚
 
-Ê¾ÀýÈçÏÂ£º
+ç¤ºä¾‹å¦‚ä¸‹ï¼š
 
-StringtextStr1 = "<font color=\"#ffff00\">Èç¹ûÓÐÒ»Ìì£¬</font><br>";
+StringtextStr1 = "<font color=\"#ffff00\">å¦‚æžœæœ‰ä¸€å¤©ï¼Œ</font><br>";
 
-StringtextStr2 = "<font color=\"#00ff00\">ÎÒÑá¾ëÁËÕâÀï£¬</font><br>";
+StringtextStr2 = "<font color=\"#00ff00\">æˆ‘åŽŒå€¦äº†è¿™é‡Œï¼Œ</font><br>";
 
-StringtextStr3 = "<font color=\"#ff00ff\">ÎÒ»á³Ë×ÅÃÎ£¬</font><br>";
+StringtextStr3 = "<font color=\"#ff00ff\">æˆ‘ä¼šä¹˜ç€æ¢¦ï¼Œ</font><br>";
 
-StringtextStr4 = "<font color=\"#00ffff\">·ÉÏòÄÇ¸öÊôÓÚ×Ô¼ºµÄ<br>ÊÀ½ç¡­¡­</font><br>";
+StringtextStr4 = "<font color=\"#00ffff\">é£žå‘é‚£ä¸ªå±žäºŽè‡ªå·±çš„<br>ä¸–ç•Œâ‹¯â‹¯</font><br>";
 
 tv.setText(Html.fromHtml(textStr1+textStr2+textStr3+textStr4));

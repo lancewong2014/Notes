@@ -1,5 +1,5 @@
-ÓĞÊ±ºòµ÷ÓÃinvalidate()·½·¨²»»áµ÷ÓÃviewµÄondraw()£»
-ÈçĞèÒªÇ¿ÖÆµ÷ÓÃ¿ÉÒÔÕâÃ´µ÷ÓÃ£º
+æœ‰æ—¶å€™è°ƒç”¨invalidate()æ–¹æ³•ä¸ä¼šè°ƒç”¨viewçš„ondraw()ï¼›
+å¦‚éœ€è¦å¼ºåˆ¶è°ƒç”¨å¯ä»¥è¿™ä¹ˆè°ƒç”¨ï¼š
 invalidate();
 forceLayout();
 requestLayout();

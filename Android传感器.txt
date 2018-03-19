@@ -1,63 +1,63 @@
-Android´«¸ĞÆ÷¿ª·¢»ù±¾Á÷³Ì
+Androidä¼ æ„Ÿå™¨å¼€å‘åŸºæœ¬æµç¨‹
 
 
 public class SensorActivity extends Activity implements SensorEventListener {
   private SensorManager mSensorManager;
   private Sensor mSensor;
- 
+
   @Override
   public final void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main);
-    //µÚÒ»²½£ºÍ¨¹ıgetSystemService»ñµÃSensorManagerÊµÀı¶ÔÏó
+    //ç¬¬ä¸€æ­¥ï¼šé€šè¿‡getSystemServiceè·å¾—SensorManagerå®ä¾‹å¯¹è±¡
     mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-    //µÚ¶ş²½£ºÍ¨¹ıSensorManagerÊµÀı¶ÔÏó»ñµÃÏëÒªµÄ´«¸ĞÆ÷¶ÔÏó:²ÎÊı¾ö¶¨»ñÈ¡ÄÄ¸ö´«¸ĞÆ÷
+    //ç¬¬äºŒæ­¥ï¼šé€šè¿‡SensorManagerå®ä¾‹å¯¹è±¡è·å¾—æƒ³è¦çš„ä¼ æ„Ÿå™¨å¯¹è±¡:å‚æ•°å†³å®šè·å–å“ªä¸ªä¼ æ„Ÿå™¨
     mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
   }
- 
-  //µÚËÄ²½£º±ØĞëÖØĞ´µÄÁ½¸ö·½·¨£ºonAccuracyChanged£¬onSensorChanged
+
+  //ç¬¬å››æ­¥ï¼šå¿…é¡»é‡å†™çš„ä¸¤ä¸ªæ–¹æ³•ï¼šonAccuracyChangedï¼ŒonSensorChanged
   /**
-   * ´«¸ĞÆ÷¾«¶È·¢Éú¸Ä±äµÄ»Øµ÷½Ó¿Ú
+   * ä¼ æ„Ÿå™¨ç²¾åº¦å‘ç”Ÿæ”¹å˜çš„å›è°ƒæ¥å£
    */
   @Override
   public final void onAccuracyChanged(Sensor sensor, int accuracy) {
-    //TODO ÔÚ´«¸ĞÆ÷¾«¶È·¢Éú¸Ä±äÊ±×öĞ©²Ù×÷£¬accuracyÎªµ±Ç°´«¸ĞÆ÷¾«¶È
+    //TODO åœ¨ä¼ æ„Ÿå™¨ç²¾åº¦å‘ç”Ÿæ”¹å˜æ—¶åšäº›æ“ä½œï¼Œaccuracyä¸ºå½“å‰ä¼ æ„Ÿå™¨ç²¾åº¦
   }
- 
+
   /**
-   * ´«¸ĞÆ÷ÊÂ¼şÖµ¸Ä±äÊ±µÄ»Øµ÷½Ó¿Ú£ºÖ´ĞĞ´Ë·½·¨µÄÆµÂÊÓë×¢²á´«¸ĞÆ÷Ê±µÄÆµÂÊÓĞ¹Ø
+   * ä¼ æ„Ÿå™¨äº‹ä»¶å€¼æ”¹å˜æ—¶çš„å›è°ƒæ¥å£ï¼šæ‰§è¡Œæ­¤æ–¹æ³•çš„é¢‘ç‡ä¸æ³¨å†Œä¼ æ„Ÿå™¨æ—¶çš„é¢‘ç‡æœ‰å…³
    */
   @Override
   public final void onSensorChanged(SensorEvent event) {
-    // ´ó²¿·Ö´«¸ĞÆ÷»á·µ»ØÈı¸öÖá·½Ïòx,y,xµÄeventÖµ£¬ÖµµÄÒâÒåÒò´«¸ĞÆ÷¶øÒì
+    // å¤§éƒ¨åˆ†ä¼ æ„Ÿå™¨ä¼šè¿”å›ä¸‰ä¸ªè½´æ–¹å‘x,y,xçš„eventå€¼ï¼Œå€¼çš„æ„ä¹‰å› ä¼ æ„Ÿå™¨è€Œå¼‚
     float x = event.values[0];
     float y = event.values[1];
     float z = event.values[2];
-    //TODO ÀûÓÃ»ñµÃµÄÈı¸öfloat´«¸ĞÆ÷Öµ×öĞ©²Ù×÷
+    //TODO åˆ©ç”¨è·å¾—çš„ä¸‰ä¸ªfloatä¼ æ„Ÿå™¨å€¼åšäº›æ“ä½œ
   }
- 
+
   /**
-   * µÚÈı²½£ºÔÚ»ñµÃ½¹µãÊ±×¢²á´«¸ĞÆ÷²¢ÈÃ±¾ÀàÊµÏÖSensorEventListener½Ó¿Ú
+   * ç¬¬ä¸‰æ­¥ï¼šåœ¨è·å¾—ç„¦ç‚¹æ—¶æ³¨å†Œä¼ æ„Ÿå™¨å¹¶è®©æœ¬ç±»å®ç°SensorEventListeneræ¥å£
    */
   @Override
   protected void onResume() {
     super.onResume();
     /*
-     *µÚÒ»¸ö²ÎÊı£ºSensorEventListener½Ó¿ÚµÄÊµÀı¶ÔÏó
-     *µÚ¶ş¸ö²ÎÊı£ºĞèÒª×¢²áµÄ´«¸ĞÆ÷ÊµÀı
-     *µÚÈı¸ö²ÎÊı£º´«¸ĞÆ÷»ñÈ¡´«¸ĞÆ÷ÊÂ¼şeventÖµÆµÂÊ£º
-   *              SensorManager.SENSOR_DELAY_FASTEST = 0£º¶ÔÓ¦0Î¢ÃëµÄ¸üĞÂ¼ä¸ô£¬×î¿ì£¬1Î¢Ãë = 1 % 1000000Ãë
-   *              SensorManager.SENSOR_DELAY_GAME = 1£º¶ÔÓ¦20000Î¢ÃëµÄ¸üĞÂ¼ä¸ô£¬ÓÎÏ·ÖĞ³£ÓÃ
-   *              SensorManager.SENSOR_DELAY_UI = 2£º¶ÔÓ¦60000Î¢ÃëµÄ¸üĞÂ¼ä¸ô
-   *              SensorManager.SENSOR_DELAY_NORMAL = 3£º¶ÔÓ¦200000Î¢ÃëµÄ¸üĞÂ¼ä¸ô
-   *              ¼üÈë×Ô¶¨ÒåµÄintÖµxÊ±£º¶ÔÓ¦xÎ¢ÃëµÄ¸üĞÂ¼ä¸ô
+     *ç¬¬ä¸€ä¸ªå‚æ•°ï¼šSensorEventListeneræ¥å£çš„å®ä¾‹å¯¹è±¡
+     *ç¬¬äºŒä¸ªå‚æ•°ï¼šéœ€è¦æ³¨å†Œçš„ä¼ æ„Ÿå™¨å®ä¾‹
+     *ç¬¬ä¸‰ä¸ªå‚æ•°ï¼šä¼ æ„Ÿå™¨è·å–ä¼ æ„Ÿå™¨äº‹ä»¶eventå€¼é¢‘ç‡ï¼š
+   *              SensorManager.SENSOR_DELAY_FASTEST = 0ï¼šå¯¹åº”0å¾®ç§’çš„æ›´æ–°é—´éš”ï¼Œæœ€å¿«ï¼Œ1å¾®ç§’ = 1 % 1000000ç§’
+   *              SensorManager.SENSOR_DELAY_GAME = 1ï¼šå¯¹åº”20000å¾®ç§’çš„æ›´æ–°é—´éš”ï¼Œæ¸¸æˆä¸­å¸¸ç”¨
+   *              SensorManager.SENSOR_DELAY_UI = 2ï¼šå¯¹åº”60000å¾®ç§’çš„æ›´æ–°é—´éš”
+   *              SensorManager.SENSOR_DELAY_NORMAL = 3ï¼šå¯¹åº”200000å¾®ç§’çš„æ›´æ–°é—´éš”
+   *              é”®å…¥è‡ªå®šä¹‰çš„intå€¼xæ—¶ï¼šå¯¹åº”xå¾®ç§’çš„æ›´æ–°é—´éš”
      *
      */
     mSensorManager.registerListener(this, mSensor, SensorManager.SENSOR_DELAY_NORMAL);
   }
- 
+
   /**
-   * µÚÎå²½£ºÔÚÊ§È¥½¹µãÊ±×¢Ïú´«¸ĞÆ÷
+   * ç¬¬äº”æ­¥ï¼šåœ¨å¤±å»ç„¦ç‚¹æ—¶æ³¨é”€ä¼ æ„Ÿå™¨
    */
   @Override
   protected void onPause() {

@@ -1,8 +1,8 @@
 inputEdit.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
 
-2015-03-30Ôö¼Ó
-EditTextÏŞÖÆÌØÊâÊäÈëÊ±¿ÉÒÔÔÚxmlÀïÌí¼Ó
+2015-03-30å¢åŠ 
+EditTexté™åˆ¶ç‰¹æ®Šè¾“å…¥æ—¶å¯ä»¥åœ¨xmlé‡Œæ·»åŠ 
 android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-£¨ÏŞÖÆÎªÊı×ÖÓë×ÖÄ¸£©
-µ«ÊÇÖµµÃ×¢ÒâµÄÊÇ£¬Èç¹û¶¯Ì¬µ÷ÓÃÁËsetInputType·½·¨»áµ¼ÖÂxmlÀïµÄdigitsÊ§Ğ§£¬ËùÒÔĞèÒª¶¯Ì¬ÉèÖÃ
+ï¼ˆé™åˆ¶ä¸ºæ•°å­—ä¸å­—æ¯ï¼‰
+ä½†æ˜¯å€¼å¾—æ³¨æ„çš„æ˜¯ï¼Œå¦‚æœåŠ¨æ€è°ƒç”¨äº†setInputTypeæ–¹æ³•ä¼šå¯¼è‡´xmlé‡Œçš„digitså¤±æ•ˆï¼Œæ‰€ä»¥éœ€è¦åŠ¨æ€è®¾ç½®
 inputEdit.setKeyListener(DigitsKeyListener.getInstance("0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"));

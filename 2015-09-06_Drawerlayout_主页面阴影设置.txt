@@ -2,7 +2,7 @@
 You can use setScrimColor(int color) method. As default color is used 0x99000000. 
 So if you don't want faded background, set transparent color in this method.
 
-取消阴影
+鍙栨秷闃村奖
 mDrawerLayout.setScrimColor(getResources().getColor(android.R.color.transparent));
 
 url:

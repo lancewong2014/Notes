@@ -1,2 +1,2 @@
-EditText设置imeOptions不生效：
-需要设置singleLine=true.
+EditText璁剧疆imeOptions涓嶇敓鏁堬細
+闇�瑕佽缃畇ingleLine=true.

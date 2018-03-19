@@ -1,21 +1,21 @@
-¡¾A¡¿stateUnspecified£ºÈí¼üÅÌµÄ×´Ì¬²¢Ã»ÓĞÖ¸¶¨£¬ÏµÍ³½«Ñ¡ÔñÒ»¸öºÏÊÊµÄ×´Ì¬»òÒÀÀµÓÚÖ÷ÌâµÄÉèÖÃ
-¡¾B¡¿stateUnchanged£ºµ±Õâ¸öactivity³öÏÖÊ±£¬Èí¼üÅÌ½«Ò»Ö±±£³ÖÔÚÉÏÒ»¸öactivityÀïµÄ×´Ì¬£¬ÎŞÂÛÊÇÒş²Ø»¹ÊÇÏÔÊ¾
-¡¾C¡¿stateHidden£ºÓÃ»§Ñ¡ÔñactivityÊ±£¬Èí¼üÅÌ×ÜÊÇ±»Òş²Ø
-¡¾D¡¿stateAlwaysHidden£ºµ±¸ÃActivityÖ÷´°¿Ú»ñÈ¡½¹µãÊ±£¬Èí¼üÅÌÒ²×ÜÊÇ±»Òş²ØµÄ
-¡¾E¡¿stateVisible£ºÈí¼üÅÌÍ¨³£ÊÇ¿É¼ûµÄ
-¡¾F¡¿stateAlwaysVisible£ºÓÃ»§Ñ¡ÔñactivityÊ±£¬Èí¼üÅÌ×ÜÊÇÏÔÊ¾µÄ×´Ì¬
-¡¾G¡¿adjustUnspecified£ºÄ¬ÈÏÉèÖÃ£¬Í¨³£ÓÉÏµÍ³×ÔĞĞ¾ö¶¨ÊÇÒş²Ø»¹ÊÇÏÔÊ¾
-¡¾H¡¿adjustResize£º¸ÃActivity×ÜÊÇµ÷ÕûÆÁÄ»µÄ´óĞ¡ÒÔ±ãÁô³öÈí¼üÅÌµÄ¿Õ¼ä
-¡¾I¡¿adjustPan£ºµ±Ç°´°¿ÚµÄÄÚÈİ½«×Ô¶¯ÒÆ¶¯ÒÔ±ãµ±Ç°½¹µã´Ó²»±»¼üÅÌ¸²¸ÇºÍÓÃ»§ÄÜ×ÜÊÇ¿´µ½ÊäÈëÄÚÈİµÄ²¿·Ö
+ã€Aã€‘stateUnspecifiedï¼šè½¯é”®ç›˜çš„çŠ¶æ€å¹¶æ²¡æœ‰æŒ‡å®šï¼Œç³»ç»Ÿå°†é€‰æ‹©ä¸€ä¸ªåˆé€‚çš„çŠ¶æ€æˆ–ä¾èµ–äºä¸»é¢˜çš„è®¾ç½®
+ã€Bã€‘stateUnchangedï¼šå½“è¿™ä¸ªactivityå‡ºç°æ—¶ï¼Œè½¯é”®ç›˜å°†ä¸€ç›´ä¿æŒåœ¨ä¸Šä¸€ä¸ªactivityé‡Œçš„çŠ¶æ€ï¼Œæ— è®ºæ˜¯éšè—è¿˜æ˜¯æ˜¾ç¤º
+ã€Cã€‘stateHiddenï¼šç”¨æˆ·é€‰æ‹©activityæ—¶ï¼Œè½¯é”®ç›˜æ€»æ˜¯è¢«éšè—
+ã€Dã€‘stateAlwaysHiddenï¼šå½“è¯¥Activityä¸»çª—å£è·å–ç„¦ç‚¹æ—¶ï¼Œè½¯é”®ç›˜ä¹Ÿæ€»æ˜¯è¢«éšè—çš„
+ã€Eã€‘stateVisibleï¼šè½¯é”®ç›˜é€šå¸¸æ˜¯å¯è§çš„
+ã€Fã€‘stateAlwaysVisibleï¼šç”¨æˆ·é€‰æ‹©activityæ—¶ï¼Œè½¯é”®ç›˜æ€»æ˜¯æ˜¾ç¤ºçš„çŠ¶æ€
+ã€Gã€‘adjustUnspecifiedï¼šé»˜è®¤è®¾ç½®ï¼Œé€šå¸¸ç”±ç³»ç»Ÿè‡ªè¡Œå†³å®šæ˜¯éšè—è¿˜æ˜¯æ˜¾ç¤º
+ã€Hã€‘adjustResizeï¼šè¯¥Activityæ€»æ˜¯è°ƒæ•´å±å¹•çš„å¤§å°ä»¥ä¾¿ç•™å‡ºè½¯é”®ç›˜çš„ç©ºé—´
+ã€Iã€‘adjustPanï¼šå½“å‰çª—å£çš„å†…å®¹å°†è‡ªåŠ¨ç§»åŠ¨ä»¥ä¾¿å½“å‰ç„¦ç‚¹ä»ä¸è¢«é”®ç›˜è¦†ç›–å’Œç”¨æˆ·èƒ½æ€»æ˜¯çœ‹åˆ°è¾“å…¥å†…å®¹çš„éƒ¨åˆ†
 
 getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_UNSPECIFIED);
-//Òş²Øsoftkeyboard
+//éšè—softkeyboard
 manager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
-//·´×ª
+//åè½¬
 manager.toggleSoftInput(0,InputMethodManager.HIDE_NOT_ALWAYS);
 
 
-//Èí¼üÅÌ¸ß¶È
+//è½¯é”®ç›˜é«˜åº¦
 final View activityRootView = findViewById(R.id.activityRoot);
 activityRootView.getViewTreeObserver().addOnGlobalLayoutListener(new OnGlobalLayoutListener() {
     @Override

@@ -1,9 +1,9 @@
 URL:
 http://blog.sina.com.cn/s/blog_6e334dc70102ve7d.html
 
-¿´Í¼toolbar_bg_color.jpg
-toolbarÓĞ¼¸ÖÖÑÕÉ«¿ÉÒÔÖ±½ÓÔÚstyles.xmlÖĞÉèÖÃ
+çœ‹å›¾toolbar_bg_color.jpg
+toolbaræœ‰å‡ ç§é¢œè‰²å¯ä»¥ç›´æ¥åœ¨styles.xmlä¸­è®¾ç½®
 colorAccent
-colorPrimaryDark ÀàËÆstatusBarColor
-colorPrimary	toolbarµÄbackground
-textColorPrimary  ÎÄ×ÖÇ°¾°É«
+colorPrimaryDark ç±»ä¼¼statusBarColor
+colorPrimary	toolbarçš„background
+textColorPrimary  æ–‡å­—å‰æ™¯è‰²

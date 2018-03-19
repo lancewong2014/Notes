@@ -1,6 +1,6 @@
 http://stackoverflow.com/questions/29882292/buttonstyle-not-working-for-22-1-1
-Ö±½ÓÔÚÈ«¾ÖstyleÀïÉèÖÃÒ»Ğ©ÊôĞÔ£¬ÈçtextCursorDrawableÊ±£¬ÔÚµÍ°æ±¾ÉÏ»áÓĞ¼æÈİÎÊÌâ¡£
-´¦ÀíÕâ¸ö¼æÈİÎÊÌâ£¬ĞèÒªÈ¥µôÇ°ÃæµÄ"android:"£¬Èç"android:editTextStyle"±ä³É"editTextStyle".
+ç›´æ¥åœ¨å…¨å±€styleé‡Œè®¾ç½®ä¸€äº›å±æ€§ï¼Œå¦‚textCursorDrawableæ—¶ï¼Œåœ¨ä½ç‰ˆæœ¬ä¸Šä¼šæœ‰å…¼å®¹é—®é¢˜ã€‚
+å¤„ç†è¿™ä¸ªå…¼å®¹é—®é¢˜ï¼Œéœ€è¦å»æ‰å‰é¢çš„"android:"ï¼Œå¦‚"android:editTextStyle"å˜æˆ"editTextStyle".
 <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:textCursorDrawable">@drawable/shape_text_cursor_green</item>
         <item name="editTextStyle">@style/style_base_edit</item>
@@ -9,4 +9,3 @@ http://stackoverflow.com/questions/29882292/buttonstyle-not-working-for-22-1-1
 <style name="style_base_edit" parent="@android:style/Widget.EditText">
         <item name="android:textCursorDrawable">@drawable/shape_text_cursor_green</item>
 </style>
-

@@ -1,2 +1,2 @@
-���Զ����Layout����draw����ʧЧ��
-��Ҫ�ڹ��캯���������ôһ�䣺setWillNotDraw(false);
+给自定义的Layout布局draw背景失效：
+需要在构造函数里加上这么一句：setWillNotDraw(false);

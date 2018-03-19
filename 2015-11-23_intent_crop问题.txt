@@ -13,8 +13,8 @@ intent.putExtra("outputFormat", Bitmap.CompressFormat.JPEG.toString());
 intent.putExtra("noFaceDetection", true); // no face detection
 startActivityForResult(intent, requestCode);
 }
-Õâ¸öº¯Êı´æÔÚÎÊÌâ£¬²Ã¼õÊ±´ò¿ªÍ¼Æ¬µÄuriÓë±£´æÍ¼Æ¬µÄuriÏàÍ¬£¬²úÉú³åÍ»£¬µ¼ÖÂ²Ã¼õÍê³ÉºóÍ¼Æ¬µÄ´óĞ¡±ä³É0Byte¡£
-¿É½«Ïà»úÕÕÆ¬±£´æÔÚÁíÍâµÄÎ»ÖÃ£¬½«intent.setDataAndType(uri, "image/*");ÖĞµÄuri»»³ÉÏà»úÕÕÆ¬ÙÀ´æµÄÂ·¾¶¼´¿É¡£
+è¿™ä¸ªå‡½æ•°å­˜åœ¨é—®é¢˜ï¼Œè£å‡æ—¶æ‰“å¼€å›¾ç‰‡çš„uriä¸ä¿å­˜å›¾ç‰‡çš„uriç›¸åŒï¼Œäº§ç”Ÿå†²çªï¼Œå¯¼è‡´è£å‡å®Œæˆåå›¾ç‰‡çš„å¤§å°å˜æˆ0Byteã€‚
+å¯å°†ç›¸æœºç…§ç‰‡ä¿å­˜åœ¨å¦å¤–çš„ä½ç½®ï¼Œå°†intent.setDataAndType(uri, "image/*");ä¸­çš„uriæ¢æˆç›¸æœºç…§ç‰‡å€®å­˜çš„è·¯å¾„å³å¯ã€‚
 
 
 http://bbs.csdn.net/topics/390935877?page=1

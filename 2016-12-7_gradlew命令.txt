@@ -1,1 +1,1 @@
-gradlew -q app:dependencies	//²ιΏ΄ΈχÒΐΐµΉΨΟµ
+gradlew -q app:dependencies	//ζ¥η‹ε„δΎθµ–ε…³η³»

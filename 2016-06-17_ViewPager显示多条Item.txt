@@ -1,4 +1,4 @@
 http://blog.csdn.net/mwj_88/article/details/48712967
-ViewPagerÒ»¸öÒ³ÃæÏÔÊ¾¶à¸öitem
-Í¨¹ýÉèÖÃViewPagerµÄmarginÊôÐÔ£¬ÔÙ¼ÓÉÏÔÚviewPager¸¸¿Ø¼þÉèÖÃcliptochild=false
-ÔÙÍ¨¹ýsetPageMarginÊôÐÔÀ´¿Ø¼þitemÓëitemÖ®¼ä¾àÀë
+ViewPagerä¸€ä¸ªé¡µé¢æ˜¾ç¤ºå¤šä¸ªitem
+é€šè¿‡è®¾ç½®ViewPagerçš„marginå±žæ€§ï¼Œå†åŠ ä¸Šåœ¨viewPagerçˆ¶æŽ§ä»¶è®¾ç½®cliptochild=false
+å†é€šè¿‡setPageMarginå±žæ€§æ¥æŽ§ä»¶itemä¸Žitemä¹‹é—´è·ç¦»

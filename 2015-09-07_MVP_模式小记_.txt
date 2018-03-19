@@ -3,15 +3,14 @@ http://blog.csdn.net/knxw0001/article/details/39672917
 
 http://blog.csdn.net/lmj623565791/article/details/46596109
 
-°´ÕÕMVPÄ£Ê½À´Ëµ£¬Ò»°ã¿ÉÒÔ½«ÕûÌå·Ö³ÉËÄ¸ö²¿·Ö£º
-1¡¢beanÀà£»
-2¡¢beanModelÒµÎñ½Ó¿Ú¼°ÏàÓ¦ÊµÏÖ£»
-3¡¢beanView UI½çÃæÓëÒµÎñ»¥¶¯½Ó¿Ú£¬¼´ÁĞ³öĞèÒª²Ù×÷µ±Ç°viewµÄ·½·¨£¬¹©ÏàÓ¦µÄviewÈ¥ÊµÏÖ£»
-4¡¢beanPresenter Ö÷µ¼Æ÷£¬Í¨¹ıiViewºÍiModel½Ó¿Ú²Ù×÷modelºÍview£¬Activity¿ÉÒÔ°ÑËùÓĞÂß¼­¸øpresenter´¦Àí£¬ÕâÑù¿ÉÒÔ°ÑjavaÂß¼­´ÓÊÖ»úµÄActivityÖĞ·ÖÀë³öÀ´
+æŒ‰ç…§MVPæ¨¡å¼æ¥è¯´ï¼Œä¸€èˆ¬å¯ä»¥å°†æ•´ä½“åˆ†æˆå››ä¸ªéƒ¨åˆ†ï¼š
+1ã€beanç±»ï¼›
+2ã€beanModelä¸šåŠ¡æ¥å£åŠç›¸åº”å®ç°ï¼›
+3ã€beanView UIç•Œé¢ä¸ä¸šåŠ¡äº’åŠ¨æ¥å£ï¼Œå³åˆ—å‡ºéœ€è¦æ“ä½œå½“å‰viewçš„æ–¹æ³•ï¼Œä¾›ç›¸åº”çš„viewå»å®ç°ï¼›
+4ã€beanPresenter ä¸»å¯¼å™¨ï¼Œé€šè¿‡iViewå’ŒiModelæ¥å£æ“ä½œmodelå’Œviewï¼ŒActivityå¯ä»¥æŠŠæ‰€æœ‰é€»è¾‘ç»™presenterå¤„ç†ï¼Œè¿™æ ·å¯ä»¥æŠŠjavaé€»è¾‘ä»æ‰‹æœºçš„Activityä¸­åˆ†ç¦»å‡ºæ¥
 
-ÒÔµÇÂ¼Ä£¿éÎªÀı£º
-1¡¢User£¨BeanÀà£©£»
-2¡¢IUserModel£¨Model½Ó¿Ú£©¡¢UserModel£¨Model½Ó¿ÚÊµÏÖ£©£»
-3¡¢IUserView£¨UI½çÃæ»¥¶¯½Ó¿Ú£¬Ò»°ãÓÉ¶ÔÓ¦µÄActivityÀ´ÊµÏÖ£©£»
-4¡¢UserPresenter £¨ÄÚ²¿ÓĞIUserModel,IUserView£©
-
+ä»¥ç™»å½•æ¨¡å—ä¸ºä¾‹ï¼š
+1ã€Userï¼ˆBeanç±»ï¼‰ï¼›
+2ã€IUserModelï¼ˆModelæ¥å£ï¼‰ã€UserModelï¼ˆModelæ¥å£å®ç°ï¼‰ï¼›
+3ã€IUserViewï¼ˆUIç•Œé¢äº’åŠ¨æ¥å£ï¼Œä¸€èˆ¬ç”±å¯¹åº”çš„Activityæ¥å®ç°ï¼‰ï¼›
+4ã€UserPresenter ï¼ˆå†…éƒ¨æœ‰IUserModel,IUserViewï¼‰

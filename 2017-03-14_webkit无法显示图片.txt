@@ -1,34 +1,34 @@
 http://www.cnblogs.com/zhengshiqiang47/p/6220295.html
 
-Android webview Mixed ContentÎŞ·¨ÏÔÊ¾Í¼Æ¬½â¾ö
-ÔÚÊ¹ÓÃWebView¼ÓÔØhttps×ÊÔ´ÎÄ¼şÊ±£¬Èç¹ûÈÏÖ¤Ö¤Êé²»±»AndroidÈÏ¿É£¬ÄÇÃ´»á³öÏÖÎŞ·¨³É¹¦¼ÓÔØ¶ÔÓ¦×ÊÔ´ÎÊÌâ¡£ÄÇÃ´£¬ÎÒÃÇ¾ÍÒªÕë¶ÔÕâÒ»×´¿ö×÷³ö¶ÔÓ¦µÄ´¦Àí¡£
+Android webview Mixed Contentæ— æ³•æ˜¾ç¤ºå›¾ç‰‡è§£å†³
+åœ¨ä½¿ç”¨WebViewåŠ è½½httpsèµ„æºæ–‡ä»¶æ—¶ï¼Œå¦‚æœè®¤è¯è¯ä¹¦ä¸è¢«Androidè®¤å¯ï¼Œé‚£ä¹ˆä¼šå‡ºç°æ— æ³•æˆåŠŸåŠ è½½å¯¹åº”èµ„æºé—®é¢˜ã€‚é‚£ä¹ˆï¼Œæˆ‘ä»¬å°±è¦é’ˆå¯¹è¿™ä¸€çŠ¶å†µä½œå‡ºå¯¹åº”çš„å¤„ç†ã€‚
 
-1. ÆôÓÃmixed content
+1. å¯ç”¨mixed content
 
-ÔÚAndroid5.0ÖĞ£¬WebView·½Ãæ×öÁËĞ©ĞŞ¸Ä£¬Èç¹ûÄãµÄÏµÍ³target apiÎª21ÒÔÉÏ:
+åœ¨Android5.0ä¸­ï¼ŒWebViewæ–¹é¢åšäº†äº›ä¿®æ”¹ï¼Œå¦‚æœä½ çš„ç³»ç»Ÿtarget apiä¸º21ä»¥ä¸Š:
 
-ÏµÍ³Ä¬ÈÏ½ûÖ¹ÁËmixed contentºÍµÚÈı·½cookie¡£¿ÉÒÔÊ¹ÓÃsetMixedContentMode() ºÍ setAcceptThirdPartyCookies()ÒÔ·Ö±ğÆôÓÃ¡£
-ÏµÍ³ÏÖÔÚ¿ÉÒÔÖÇÄÜÑ¡ÔñHTMLÎÄµµµÄportionÀ´»æÖÆ¡£ÕâÖÖĞÂÌØĞÔ¿ÉÒÔ¼õÉÙÄÚ´æfootprint²¢¸Ä½øĞÔÄÜ¡£ÈôÒªÒ»´ÎĞÔäÖÈ¾Õû¸öHTMLÎÄµµ£¬¿ÉÒÔµ÷ÓÃÕâ¸ö·½·¨enableSlowWholeDocumentDraw()
-Èç¹ûÄãµÄappµÄtarget apiµÍÓÚ21:ÏµÍ³ÔÊĞímixed contentºÍµÚÈı·½cookie£¬²¢ÇÒ×ÜÊÇÒ»´ÎĞÔäÖÈ¾Õû¸öHTMLÎÄµµ¡£ 
-ÔÚÊ¹ÓÃWebViewµÄÀàÖĞÌí¼ÓÈçÏÂ´úÂë£º
-// android 5.0ÒÔÉÏÄ¬ÈÏ²»Ö§³ÖMixed Content  
-if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {  
-    webView.getSettings().setMixedContentMode(  
-        WebSettings.MIXED_CONTENT_COMPATIBILITY_MODE);  
-}  
-2. ÉèÖÃWebView½ÓÊÜËùÓĞÍøÕ¾µÄÖ¤Êé
+ç³»ç»Ÿé»˜è®¤ç¦æ­¢äº†mixed contentå’Œç¬¬ä¸‰æ–¹cookieã€‚å¯ä»¥ä½¿ç”¨setMixedContentMode() å’Œ setAcceptThirdPartyCookies()ä»¥åˆ†åˆ«å¯ç”¨ã€‚
+ç³»ç»Ÿç°åœ¨å¯ä»¥æ™ºèƒ½é€‰æ‹©HTMLæ–‡æ¡£çš„portionæ¥ç»˜åˆ¶ã€‚è¿™ç§æ–°ç‰¹æ€§å¯ä»¥å‡å°‘å†…å­˜footprintå¹¶æ”¹è¿›æ€§èƒ½ã€‚è‹¥è¦ä¸€æ¬¡æ€§æ¸²æŸ“æ•´ä¸ªHTMLæ–‡æ¡£ï¼Œå¯ä»¥è°ƒç”¨è¿™ä¸ªæ–¹æ³•enableSlowWholeDocumentDraw()
+å¦‚æœä½ çš„appçš„target apiä½äº21:ç³»ç»Ÿå…è®¸mixed contentå’Œç¬¬ä¸‰æ–¹cookieï¼Œå¹¶ä¸”æ€»æ˜¯ä¸€æ¬¡æ€§æ¸²æŸ“æ•´ä¸ªHTMLæ–‡æ¡£ã€‚
+åœ¨ä½¿ç”¨WebViewçš„ç±»ä¸­æ·»åŠ å¦‚ä¸‹ä»£ç ï¼š
+// android 5.0ä»¥ä¸Šé»˜è®¤ä¸æ”¯æŒMixed Content
+if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+    webView.getSettings().setMixedContentMode(
+        WebSettings.MIXED_CONTENT_COMPATIBILITY_MODE);
+}
+2. è®¾ç½®WebViewæ¥å—æ‰€æœ‰ç½‘ç«™çš„è¯ä¹¦
 
-ÔÚÈÏÖ¤Ö¤Êé²»±»AndroidËù½ÓÊÜµÄÇé¿öÏÂ£¬ÎÒÃÇ¿ÉÒÔÍ¨¹ıÉèÖÃÖØĞ´WebViewClientµÄonReceivedSslError·½·¨ÔÚÆäÖĞÉèÖÃ½ÓÊÜËùÓĞÍøÕ¾µÄÖ¤ÊéÀ´½â¾ö£¬¾ßÌå´úÂëÈçÏÂ£º
-webView.setWebViewClient(new WebViewClient() {  
-            @Override  
-            public void onReceivedSslError(WebView view,  
-                    SslErrorHandler handler, SslError error) {  
-                // TODO Auto-generated method stub  
-                // handler.cancel();// AndroidÄ¬ÈÏµÄ´¦Àí·½Ê½  
-                handler.proceed();// ½ÓÊÜËùÓĞÍøÕ¾µÄÖ¤Êé  
-                // handleMessage(Message msg);// ½øĞĞÆäËû´¦Àí  
-            }  
-});  
- 
+åœ¨è®¤è¯è¯ä¹¦ä¸è¢«Androidæ‰€æ¥å—çš„æƒ…å†µä¸‹ï¼Œæˆ‘ä»¬å¯ä»¥é€šè¿‡è®¾ç½®é‡å†™WebViewClientçš„onReceivedSslErroræ–¹æ³•åœ¨å…¶ä¸­è®¾ç½®æ¥å—æ‰€æœ‰ç½‘ç«™çš„è¯ä¹¦æ¥è§£å†³ï¼Œå…·ä½“ä»£ç å¦‚ä¸‹ï¼š
+webView.setWebViewClient(new WebViewClient() {
+            @Override
+            public void onReceivedSslError(WebView view,
+                    SslErrorHandler handler, SslError error) {
+                // TODO Auto-generated method stub
+                // handler.cancel();// Androidé»˜è®¤çš„å¤„ç†æ–¹å¼
+                handler.proceed();// æ¥å—æ‰€æœ‰ç½‘ç«™çš„è¯ä¹¦
+                // handleMessage(Message msg);// è¿›è¡Œå…¶ä»–å¤„ç†
+            }
+});
 
-×¢£ºÔÚÖØĞ´WebViewClientµÄonReceivedSslError·½·¨Ê±£¬×¢ÒâÒ»¶¨ÒªÈ¥³ıonReceivedSslError·½·¨µÄsuper.onReceivedSslError(view, handler, error);£¬·ñÔòÉèÖÃÎŞĞ§¡£
+
+æ³¨ï¼šåœ¨é‡å†™WebViewClientçš„onReceivedSslErroræ–¹æ³•æ—¶ï¼Œæ³¨æ„ä¸€å®šè¦å»é™¤onReceivedSslErroræ–¹æ³•çš„super.onReceivedSslError(view, handler, error);ï¼Œå¦åˆ™è®¾ç½®æ— æ•ˆã€‚

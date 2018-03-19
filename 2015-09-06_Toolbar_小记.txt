@@ -1,5 +1,5 @@
-ÏÖÔÚÓÃToolbar´úÌæActionbar£º
-Í¬ÑùµÄÒ»Ğ©ÊôĞÔÒ»°ãÇé¿öÏÂ¶¼¿ÉÒÔÓÃÓÚToolbar;
-µ«ÎªÁË¼æÈİµÍ°æ±¾£¬ĞèÒªÓÃv7°üÏÂµÄToolbar.
-android:actionviewclass/app:actionviewclass;(ÏÔÊ¾¶¯×÷)
-android:actionlayout/app:actionlayout;(×Ô¶¨Òåcustomview)
+ç°åœ¨ç”¨Toolbarä»£æ›¿Actionbarï¼š
+åŒæ ·çš„ä¸€äº›å±æ€§ä¸€èˆ¬æƒ…å†µä¸‹éƒ½å¯ä»¥ç”¨äºToolbar;
+ä½†ä¸ºäº†å…¼å®¹ä½ç‰ˆæœ¬ï¼Œéœ€è¦ç”¨v7åŒ…ä¸‹çš„Toolbar.
+android:actionviewclass/app:actionviewclass;(æ˜¾ç¤ºåŠ¨ä½œ)
+android:actionlayout/app:actionlayout;(è‡ªå®šä¹‰customview)

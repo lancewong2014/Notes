@@ -1,7 +1,7 @@
 http://www.tuicool.com/articles/EZnAjiM
-ViewÌí¼Ó¶à¸ötag
+Viewæ·»åŠ å¤šä¸ªtag
 view.setTag(int key,Object value);
-ÆäÖĞµÄkeyÖµÖ»ÄÜÊÇresÖĞµÄidÖµ£¬¹ÊĞèÒªÔÚattr.xmlÀïÉèÖÃ×Ô¼ºµÄid.
-ÔÚres/value/attr.xmlÖĞ´´½¨Á½¸öitem,Èç¹ûÃ»attr.xmlÔò´´½¨Õâ¸öÎÄ¼ş
+å…¶ä¸­çš„keyå€¼åªèƒ½æ˜¯resä¸­çš„idå€¼ï¼Œæ•…éœ€è¦åœ¨attr.xmlé‡Œè®¾ç½®è‡ªå·±çš„id.
+åœ¨res/value/attr.xmlä¸­åˆ›å»ºä¸¤ä¸ªitem,å¦‚æœæ²¡attr.xmlåˆ™åˆ›å»ºè¿™ä¸ªæ–‡ä»¶
 <item type="id" name="tag_first"/>
 <item type="id" name="tag_second"/>

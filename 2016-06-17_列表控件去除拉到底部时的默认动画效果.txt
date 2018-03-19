@@ -1,1 +1,1 @@
-ViewPager,GridView等控件通过设置overScrollMode=false
+ViewPager,GridView绛夋帶浠堕�氳繃璁剧疆overScrollMode=false

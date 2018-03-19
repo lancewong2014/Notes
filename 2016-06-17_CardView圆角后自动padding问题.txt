@@ -1,10 +1,10 @@
 http://blog.csdn.net/u010940300/article/details/49303693
 
-ÔÚÊ¹ÓÃCardViewµÄÊ±ºò·¢ÏÖ£¬µ±CardView°üº¬Ò»¸ö²¼¾ÖÖ®ºóÉèÖÃ Ô²½Ç£¬cardviewÏÔÊ¾³öÀ´Ö®ºó ËÄÖÜ »áÓĞÒ»¸öÀàËÆpaddingµÄÊôĞÔ¡£
-µ«ÊÇÔÚ²¼¾ÖÎÄ¼şÀïÃæ£¬ÄÚ²ã¿Ø¼şºÍCardViewÊÇÃ»ÓĞÉèÖÃpadding µÄ¡£ 
-ÒªÈ¥µô Õâ¸ö×Ô¶¯Ìí¼ÓµÄ padding ¿ÉÒÔÍ¨¹ı ÊôĞÔ 
-cardview:cardPreventCornerOverlap À´ÉèÖÃÎª false¡£ 
-ÔÚ´úÂëÀïÃæ Ò²¾ÍÊÇ setPreventCornerOverlap (false)
+åœ¨ä½¿ç”¨CardViewçš„æ—¶å€™å‘ç°ï¼Œå½“CardViewåŒ…å«ä¸€ä¸ªå¸ƒå±€ä¹‹åè®¾ç½® åœ†è§’ï¼Œcardviewæ˜¾ç¤ºå‡ºæ¥ä¹‹å å››å‘¨ ä¼šæœ‰ä¸€ä¸ªç±»ä¼¼paddingçš„å±æ€§ã€‚
+ä½†æ˜¯åœ¨å¸ƒå±€æ–‡ä»¶é‡Œé¢ï¼Œå†…å±‚æ§ä»¶å’ŒCardViewæ˜¯æ²¡æœ‰è®¾ç½®padding çš„ã€‚
+è¦å»æ‰ è¿™ä¸ªè‡ªåŠ¨æ·»åŠ çš„ padding å¯ä»¥é€šè¿‡ å±æ€§
+cardview:cardPreventCornerOverlap æ¥è®¾ç½®ä¸º falseã€‚
+åœ¨ä»£ç é‡Œé¢ ä¹Ÿå°±æ˜¯ setPreventCornerOverlap (false)
 
-ÔÚapi 22¼°ÒÔÉÏ
-cardviewĞèÒªÌí¼Óapp:cardUseCompatPaddingÎªtrue²Å¿ÉÒÔÕı³£ÏÔÊ¾Ô²½Ç
+åœ¨api 22åŠä»¥ä¸Š
+cardviewéœ€è¦æ·»åŠ app:cardUseCompatPaddingä¸ºtrueæ‰å¯ä»¥æ­£å¸¸æ˜¾ç¤ºåœ†è§’
